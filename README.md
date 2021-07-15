@@ -1,2 +1,1 @@
-# Casa-Cornelia
-Casa Cornelia's website
+# Casa Cornelia - The Website
