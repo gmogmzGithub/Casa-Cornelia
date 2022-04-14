@@ -1,0 +1,32 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  display: table;
+}
+
+canvas {
+  width: 900px;
+  height: 200px;
+  display: block;
+  position: relative;
+  background: transparent;
+  margin: 40px auto;
+}
+
+body {
+  background: #000000;
+  background-image: url("https://images.unsplash.com/photo-1591289009723-aef0a1a8a211?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80");
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
