@@ -22,7 +22,7 @@ var ringer = {
   r_count: 4,
   r_spacing: 10, // px
   r_size: 200, // px
-  r_thickness: 3, // px
+  r_thickness: 6, // px
   update_interval: 11, // ms
     
     
@@ -98,12 +98,12 @@ var ringer = {
     // label
     $r.ctx.fillStyle = "#ffffff";
    
-    $r.ctx.font = '12px Helvetica';
+    $r.ctx.font = '25px Helvetica';
     $r.ctx.fillText(label, 0, 23);
     $r.ctx.fillText(label, 0, 23);   
     
-    $r.ctx.font = 'bold 40px Helvetica';
-    $r.ctx.fillText(Math.floor(value), 0, 10);
+    $r.ctx.font = 'bold 60px Helvetica';
+    $r.ctx.fillText(Math.floor(value), 0, -5);
     
     $r.ctx.restore();
   }
