@@ -102,6 +102,7 @@ var ringer = {
     $r.ctx.fillText(label, 0, 23);
     $r.ctx.fillText(label, 0, 23);   
     
+    
     $r.ctx.font = 'bold 60px Helvetica';
     $r.ctx.fillText(Math.floor(value), 0, -5);
     
