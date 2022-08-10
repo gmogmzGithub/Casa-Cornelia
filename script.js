@@ -22,7 +22,7 @@ var ringer = {
   r_count: 4,
   r_spacing: 10, // px
   r_size: 200, // px
-  r_thickness: 6, // px
+  r_thickness: 7, // px
   update_interval: 11, // ms
     
     
@@ -35,8 +35,6 @@ var ringer = {
       w: ($r.r_size + $r.r_thickness) * $r.r_count + ($r.r_spacing*($r.r_count-1)), 
       h: ($r.r_size + $r.r_thickness) 
     };
-    
-
 
     $r.cvs.setAttribute('width',$r.size.w);           
     $r.cvs.setAttribute('height',$r.size.h);
@@ -82,7 +80,7 @@ var ringer = {
     $r.ctx.clearRect($r.actual_size*-0.5,$r.actual_size*-0.5,$r.actual_size,$r.actual_size);
 
     // first circle
-    $r.ctx.strokeStyle = "rgba(128,128,128,0.2)";
+    $r.ctx.strokeStyle = "rgba(128,128,128,0.6)";
     $r.ctx.beginPath();
     $r.ctx.arc(0,0,$r.r_size/2,0,2 * Math.PI, 2);
     $r.ctx.lineWidth =$r.r_thickness;
@@ -96,15 +94,18 @@ var ringer = {
     $r.ctx.stroke();
     
     // label
-    $r.ctx.fillStyle = "#000000";
+    $r.ctx.fillStyle = "#FFFFFF";
    
     $r.ctx.font = '25px Helvetica';
     $r.ctx.fillText(label, 0, 23);
-    $r.ctx.fillText(label, 0, 23);   
-    
-    
+    $r.ctx.fillText(label, 0, 23);
+    $r.ctx.strokeStyle = "#696969";
+    $r.ctx.lineWidth = 0.8;
+    $r.ctx.strokeText(label, 0, 23); //draw the text
+
     $r.ctx.font = 'bold 60px Helvetica';
     $r.ctx.fillText(Math.floor(value), 0, -5);
+    $r.ctx.strokeText(Math.floor(value), 0, -5);
     
     $r.ctx.restore();
   }
