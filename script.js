@@ -1,5 +1,5 @@
 var ringer = {
-  //countdown_to: "10/31/2014",
+  //countdown_to: MM/dd/YYYY",
   countdown_to: "10/14/2023",
   rings: {
     'DAYS': { 

@@ -21,7 +21,7 @@ canvas {
 
 body {
   background: #000000;
-  background-image: url("https://lh3.googleusercontent.com/Q5Li4-x8gXjhitzttbvFf03eoRMgAqJB_lQWyGolZYn6bheU__KXOfQtd_xjuMoId1UcRRguWZG5Zcw1M26BwDhMJOCKayEwY_XY7Ejkz9bwOw6NONVfW-OxSl0-_wnYjFpHjcouijC_aUH0t_COICjeccS0bgcjwNUWh8EbDDAq51dtbOvH2rdWpMbLNB7OMDc_0o1ic4KTerFNyzjf_1D8oRRyEbicfwkkeyEYPQRXl2owU1JwfWD5m6p7cmjGHXWoDqH53QyjxjVJW8nmcIBOQPVaiakEvAcd6M0QmVpwP7XkWLDyt_sl7eGSXhNWobfBwwPuEOFNR5mAhcq_NB5DV2uZPOAIX9Dnx27vST_srQP_Am1EDKyra6zR1mWTdb3lB7BdyMIxVjkfjZkaVE_tQU7O-Wt-KnhxlKYGpcAYCvWM3McepeNOIWahbOdv9ZfNySMMvxI9oqJVoFNUMktZGd9TBC94rpTa3FA23mVJw8pM7ejWED4lkiXwN-yphK9dg1tv715Bcnf80kw2b5TVn0zA4IfqX7bZuevzqgB4ywEfgRV1S3R6IRmzPfn-uMzZ-0IfQpJ4McPR0dmkJu7159sLdZkDwc5b1KCiLq1WfnuFE7NQWHxcs8G-U4UwuqJDeFua7uAjGL32xPqkatGUe-rRGzkilRgM8o0AGhAjIVOBmwe0COcFK1GPiC5_wovn8JULxj-Fr0-Q0VFGUBJvtY97qM2uc0pEufWByYbOLBFyE2E-zO-11hk1cB8=w1404-h1872-no?authuser=0");
+  background-image: url("./Photo.jpeg");
   background-position: top center;
   background-size: cover;
   color: #fff;
@@ -33,10 +33,38 @@ body {
   text-align: center;
 }
 
-.names {
+.principal {
   font-family: "Copperplate";
+  font-size: 50px;
+  text-shadow: 1px 2px 2px #000000;
 }
 
-.the-wedding {
-  font-family: 'Schoolbell', arial, serif; 
+.date {
+  font-family: "Copperplate";
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.wedding {
+  font-family: "Brush Script MT";
+  font-size: 50px;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+.year {
+  font-family: "Copperplate";
+  font-size: 27px;
+  text-shadow: 3px 2px 2px #000000;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+a:hover {
+  color:#00A0C6; 
+  text-decoration:none; 
+  cursor:pointer;  
 }
