@@ -35,6 +35,12 @@ body {
 
 .principal {
   font-family: "Copperplate";
+  font-size: 70px;
+  text-shadow: 1px 2px 2px #000000;
+}
+
+.pl {
+  font-family: "Copperplate";
   font-size: 50px;
   text-shadow: 1px 2px 2px #000000;
 }
@@ -53,7 +59,7 @@ body {
 
 .year {
   font-family: "Copperplate";
-  font-size: 27px;
+  font-size: 23px;
   text-shadow: 3px 2px 2px #000000;
 }
 
